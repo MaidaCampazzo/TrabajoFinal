@@ -10,3 +10,9 @@ Se obtendrá información de sitios deportivos como:
 - [Transfermarkt – Datos de jugadores](https://www.transfermarkt.com)
 - [SofaScore – Rendimiento por partido](https://www.sofascore.com)
 - Paginas web de cada club
+
+Gráficas de este estilo:
+
+- [Perfil jugador Tnt Sports](https://www.instagram.com/p/DJhmjpwNxLS/)
+- [Gráficas de La Roja](https://www.instagram.com/elluchoreyes/p/DCl6f_TI7Qp/)
+  
