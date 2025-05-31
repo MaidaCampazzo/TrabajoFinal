@@ -1,5 +1,5 @@
 # TrabajoFinal
-# Ver comentarios en el código:)
+### Ver comentarios en el código:)
 
 ## Máximos goleadores históricos de 10 equipos chilenos de fútbol
 
@@ -16,4 +16,5 @@ Gráficas de este estilo:
 
 - [Perfil jugador Tnt Sports](https://www.instagram.com/p/DJhmjpwNxLS/)
 - [Gráficas de La Roja](https://www.instagram.com/elluchoreyes/p/DCl6f_TI7Qp/)
+- [Diagramación de información](https://multimedia.scmp.com/infographics/sport/article/3208740/pele/index.html)
   
