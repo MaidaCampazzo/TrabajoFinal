@@ -1,4 +1,5 @@
 # TrabajoFinal
+# Ver comentarios en el código:)
 
 ## Máximos goleadores históricos de 10 equipos chilenos de fútbol
 
