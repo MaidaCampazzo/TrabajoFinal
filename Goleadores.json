@@ -1,170 +1,170 @@
 [
   {
-    "Nombre": "Carlos Campos",
-    "Total de goles": 199,
-    "Copas nacionales": 195,
-    "Copas internacionales": 4,
-    "Nacionalidad": "Chileno"
+    "nombre": "Campos Carlos",
+    "goles": 199,
+    "nacionales": 195,
+    "internacionales": 4,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Leonel Sánchez",
-    "Total de goles": 167,
-    "Copas nacionales": 165,
-    "Copas internacionales": 2,
-    "Nacionalidad": "Chileno"
+    "nombre": "Sánchez Leonel",
+    "goles": 167,
+    "nacionales": 165,
+    "internacionales": 2,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Pedro González",
-    "Total de goles": 121,
-    "Copas nacionales": 116,
-    "Copas internacionales": 5,
-    "Nacionalidad": "Chileno"
+    "nombre": "González Pedro",
+    "goles": 121,
+    "nacionales": 116,
+    "internacionales": 5,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Marcelo Salas",
-    "Total de goles": 113,
-    "Copas nacionales": 101,
-    "Copas internacionales": 12,
-    "Nacionalidad": "Chileno"
+    "nombre": "Salas Marcelo",
+    "goles": 113,
+    "nacionales": 101,
+    "internacionales": 12,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Rubén Marcos",
-    "Total de goles": 110,
-    "Copas nacionales": 102,
-    "Copas internacionales": 8,
-    "Nacionalidad": "Chileno"
+    "nombre": "Rubén Marcos",
+    "goles": 110,
+    "nacionales": 102,
+    "internacionales": 8,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Jorge Socías",
-    "Total de goles": 102,
-    "Copas nacionales": 99,
-    "Copas internacionales": 3,
-    "Nacionalidad": "Chileno"
+    "nombre": "Socías Jorge",
+    "goles": 102,
+    "nacionales": 99,
+    "internacionales": 3,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Diego Rivarola",
-    "Total de goles": 101,
-    "Copas nacionales": 94,
-    "Copas internacionales": 7,
-    "Nacionalidad": "Argentino/Chileno"
+    "nombre": "Rivarola Diego",
+    "goles": 101,
+    "nacionales": 94,
+    "internacionales": 7,
+    "nacionalidad": "Argentino/Chileno"
   },
   {
-    "Nombre": "Pedro Araya",
-    "Total de goles": 91,
-    "Copas nacionales": 83,
-    "Copas internacionales": 8,
-    "Nacionalidad": "Chileno"
+    "nombre": "Araya Pedro",
+    "goles": 91,
+    "nacionales": 83,
+    "internacionales": 8,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Braulio Musso",
-    "Total de goles": 83,
-    "Copas nacionales": 82,
-    "Copas internacionales": 1,
-    "Nacionalidad": "Chileno"
+    "nombre": "Musso Braulio",
+    "goles": 83,
+    "nacionales": 82,
+    "internacionales": 1,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Ernesto Álvarez",
-    "Total de goles": 83,
-    "Copas nacionales": 78,
-    "Copas internacionales": 5,
-    "Nacionalidad": "Argentino/Chileno"
+    "nombre": "Álvarez Ernesto",
+    "goles": 83,
+    "nacionales": 78,
+    "internacionales": 5,
+    "nacionalidad": "Argentino/Chileno"
   },
   {
-    "Nombre": "Mariano Puyol",
-    "Total de goles": 76,
-    "Copas nacionales": 76,
-    "Copas internacionales": 0,
-    "Nacionalidad": "Chileno"
+    "nombre": "Puyol Mariano",
+    "goles": 76,
+    "nacionales": 76,
+    "internacionales": 0,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Jorge Spedaletti",
-    "Total de goles": 66,
-    "Copas nacionales": 64,
-    "Copas internacionales": 2,
-    "Nacionalidad": "Argentino/Chileno"
+    "nombre": "Spedaletti Jorge",
+    "goles": 66,
+    "nacionales": 64,
+    "internacionales": 2,
+    "nacionalidad": "Argentino/Chileno"
   },
   {
-    "Nombre": "Héctor Hoffens",
-    "Total de goles": 64,
-    "Copas nacionales": 64,
-    "Copas internacionales": 0,
-    "Nacionalidad": "Chileno"
+    "nombre": "Hoffens Héctor",
+    "goles": 64,
+    "nacionales": 64,
+    "internacionales": 0,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Sandrino Castec",
-    "Total de goles": 63,
-    "Copas nacionales": 60,
-    "Copas internacionales": 3,
-    "Nacionalidad": "Chileno"
+    "nombre": "Castec Sandrino",
+    "goles": 63,
+    "nacionales": 60,
+    "internacionales": 3,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Matías Rodríguez",
-    "Total de goles": 57,
-    "Copas nacionales": 50,
-    "Copas internacionales": 7,
-    "Nacionalidad": "Argentino"
+    "nombre": "Rodríguez Matías",
+    "goles": 57,
+    "nacionales": 50,
+    "internacionales": 7,
+    "nacionalidad": "Argentino"
   },
   {
-    "Nombre": "Guillermo Yávar",
-    "Total de goles": 56,
-    "Copas nacionales": 51,
-    "Copas internacionales": 5,
-    "Nacionalidad": "Chileno"
+    "nombre": "Yávar Guillermo",
+    "goles": 56,
+    "nacionales": 51,
+    "internacionales": 5,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Rodrigo Barrera",
-    "Total de goles": 56,
-    "Copas nacionales": 51,
-    "Copas internacionales": 5,
-    "Nacionalidad": "Chileno"
+    "nombre": "Barrera Rodrigo",
+    "goles": 56,
+    "nacionales": 51,
+    "internacionales": 5,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Gustavo Canales",
-    "Total de goles": 54,
-    "Copas nacionales": 49,
-    "Copas internacionales": 5,
-    "Nacionalidad": "Argentino/Chileno"
+    "nombre": "Canales Gustavo",
+    "goles": 54,
+    "nacionales": 49,
+    "internacionales": 5,
+    "nacionalidad": "Argentino/Chileno"
   },
   {
-    "Nombre": "Juan Manuel Olivera",
-    "Total de goles": 53,
-    "Copas nacionales": 44,
-    "Copas internacionales": 9,
-    "Nacionalidad": "Uruguayo"
+    "nombre": "Olivera Juan Manuel",
+    "goles": 53,
+    "nacionales": 44,
+    "internacionales": 9,
+    "nacionalidad": "Uruguayo"
   },
   {
-    "Nombre": "Héctor Pinto",
-    "Total de goles": 53,
-    "Copas nacionales": 53,
-    "Copas internacionales": 0,
-    "Nacionalidad": "Chileno"
+    "nombre": "Pinto Héctor",
+    "goles": 53,
+    "nacionales": 53,
+    "internacionales": 0,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "Sebastián Ubilla",
-    "Total de goles": 53,
-    "Copas nacionales": 47,
-    "Copas internacionales": 6,
-    "Nacionalidad": "Chileno"
+    "nombre": "Ubilla Sebastián",
+    "goles": 53,
+    "nacionales": 47,
+    "internacionales": 6,
+    "nacionalidad": "Chileno"
   },
   {
-    "Nombre": "José Balbuena",
-    "Total de goles": 50,
-    "Copas nacionales": 50,
-    "Copas internacionales": 0,
-    "Nacionalidad": "Peruano/Chileno"
+    "nombre": "Balbuena José",
+    "goles": 50,
+    "nacionales": 50,
+    "internacionales": 0,
+    "nacionalidad": "Peruano/Chileno"
   },
   {
-    "Nombre": "Juan Carlos Sarnari",
-    "Total de goles": 50,
-    "Copas nacionales": 46,
-    "Copas internacionales": 4,
-    "Nacionalidad": "Argentino"
+    "nombre": "Sarnari Juan Carlos",
+    "goles": 50,
+    "nacionales": 46,
+    "internacionales": 4,
+    "nacionalidad": "Argentino"
   },
   {
-    "Nombre": "Martín Gálvez",
-    "Total de goles": 50,
-    "Copas nacionales": 50,
-    "Copas internacionales": 0,
-    "Nacionalidad": "Chileno"
+    "nombre": "Gálvez Martín",
+    "goles": 50,
+    "nacionales": 50,
+    "internacionales": 0,
+    "nacionalidad": "Chileno"
   }
 ]
