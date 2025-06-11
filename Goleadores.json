@@ -4,167 +4,287 @@
     "goles": 199,
     "nacionales": 195,
     "internacionales": 4,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Delantero centro",
+    "partidos": 259,
+    "influencias": 0.71,
+    "debut": 1958,
+    "termino": 1973
   },
   {
     "nombre": "Sánchez Leonel",
     "goles": 167,
     "nacionales": 165,
     "internacionales": 2,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Extremo",
+    "partidos": 412,
+    "influencias": 0.41,
+    "debut": 1953,
+    "termino": 1971
   },
   {
     "nombre": "González Pedro",
     "goles": 121,
     "nacionales": 116,
     "internacionales": 5,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Defensa",
+    "partidos": 219,
+    "influencias": 0.55,
+    "debut": 1987,
+    "termino": 1991
   },
   {
     "nombre": "Salas Marcelo",
     "goles": 113,
     "nacionales": 101,
     "internacionales": 12,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Delantero centro",
+    "partidos": 209,
+    "influencias": 0.76,
+    "debut": 1993,
+    "termino": 1996
   },
   {
     "nombre": "Rubén Marcos",
     "goles": 110,
     "nacionales": 102,
     "internacionales": 8,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Volante",
+    "partidos": 254,
+    "influencias": 0.43,
+    "debut": 1960,
+    "termino": 1970
   },
   {
     "nombre": "Socías Jorge",
     "goles": 102,
     "nacionales": 99,
     "internacionales": 3,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Volante",
+    "partidos": 421,
+    "influencias": 0.27,
+    "debut": 1967,
+    "termino": 1973
   },
   {
     "nombre": "Rivarola Diego",
     "goles": 101,
     "nacionales": 94,
     "internacionales": 7,
-    "nacionalidad": "Argentino/Chileno"
+    "nacionalidad": "Argentino/Chileno",
+    "posición": "Delantero centro",
+    "partidos": 289,
+    "influencias": 0.44,
+    "debut": 1997,
+    "termino": 2005
   },
   {
     "nombre": "Araya Pedro",
     "goles": 91,
     "nacionales": 83,
     "internacionales": 8,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Extremo",
+    "partidos": 239,
+    "influencias": 0.38,
+    "debut": 1964,
+    "termino": 1973
   },
   {
     "nombre": "Musso Braulio",
     "goles": 83,
     "nacionales": 82,
     "internacionales": 1,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Volante",
+    "partidos": 391,
+    "influencias": 0.21,
+    "debut": 1952,
+    "termino": 1965
   },
   {
     "nombre": "Álvarez Ernesto",
     "goles": 83,
     "nacionales": 78,
     "internacionales": 5,
-    "nacionalidad": "Argentino/Chileno"
+    "nacionalidad": "Argentino/Chileno",
+    "posición": "Defensa",
+    "partidos": 169,
+    "influencias": 0.49,
+    "debut": 1964,
+    "termino": 1970
   },
   {
     "nombre": "Puyol Mariano",
     "goles": 76,
     "nacionales": 76,
     "internacionales": 0,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Defensa",
+    "partidos": 281,
+    "influencias": 0.27,
+    "debut": 1981,
+    "termino": 1991
   },
   {
     "nombre": "Spedaletti Jorge",
     "goles": 66,
     "nacionales": 64,
     "internacionales": 2,
-    "nacionalidad": "Argentino/Chileno"
+    "nacionalidad": "Argentino/Chileno",
+    "posición": "Lateral",
+    "partidos": 171,
+    "influencias": 0.38,
+    "debut": 1970,
+    "termino": 1976
   },
   {
     "nombre": "Hoffens Héctor",
     "goles": 64,
     "nacionales": 64,
     "internacionales": 0,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Extremo",
+    "partidos": 442,
+    "influencias": 0.14,
+    "debut": 1964,
+    "termino": 1978
   },
   {
     "nombre": "Castec Sandrino",
     "goles": 63,
     "nacionales": 60,
     "internacionales": 3,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Delantero centro",
+    "partidos": 201,
+    "influencias": 0.31,
+    "debut": 1972,
+    "termino": 1978
   },
   {
     "nombre": "Rodríguez Matías",
     "goles": 57,
     "nacionales": 50,
     "internacionales": 7,
-    "nacionalidad": "Argentino"
+    "nacionalidad": "Argentino",
+    "posición": "Lateral",
+    "partidos": 340,
+    "influencias": 0.16,
+    "debut": 2010,
+    "termino": 2021
   },
   {
     "nombre": "Yávar Guillermo",
     "goles": 56,
     "nacionales": 51,
     "internacionales": 5,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Volante",
+    "partidos": 177,
+    "influencias": 0.31,
+    "debut": 1966,
+    "termino": 1974
   },
   {
     "nombre": "Barrera Rodrigo",
     "goles": 56,
     "nacionales": 51,
     "internacionales": 5,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Delantero centro",
+    "partidos": 68,
+    "influencias": 0.82,
+    "debut": 1997,
+    "termino": 2004
   },
   {
     "nombre": "Canales Gustavo",
     "goles": 54,
     "nacionales": 49,
     "internacionales": 5,
-    "nacionalidad": "Argentino/Chileno"
+    "nacionalidad": "Argentino/Chileno",
+    "posición": "Delantero centro",
+    "partidos": 58,
+    "influencias": 0.93,
+    "debut": 2010,
+    "termino": 2013
   },
   {
     "nombre": "Olivera Juan Manuel",
     "goles": 53,
     "nacionales": 44,
     "internacionales": 9,
-    "nacionalidad": "Uruguayo"
+    "nacionalidad": "Uruguayo",
+    "posición": "Delantero centro",
+    "partidos": 89,
+    "influencias": 0.6,
+    "debut": 2005,
+    "termino": 2010
   },
   {
     "nombre": "Pinto Héctor",
     "goles": 53,
     "nacionales": 53,
     "internacionales": 0,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Delantero centro",
+    "partidos": 163,
+    "influencias": 0.32,
+    "debut": 1974,
+    "termino": 1983
   },
   {
     "nombre": "Ubilla Sebastián",
     "goles": 53,
     "nacionales": 47,
     "internacionales": 6,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Extremo",
+    "partidos": 194,
+    "influencias": 0.27,
+    "debut": 2009,
+    "termino": 2015
   },
   {
     "nombre": "Balbuena José",
-    "goles": 50,
-    "nacionales": 50,
+    "goles": 53,
+    "nacionales": 53,
     "internacionales": 0,
-    "nacionalidad": "Peruano/Chileno"
+    "nacionalidad": "Peruano/Chileno",
+    "posición": "Delantero centro",
+    "partidos": 199,
+    "influencias": 0.27,
+    "debut": 1939,
+    "termino": 1950
   },
   {
     "nombre": "Sarnari Juan Carlos",
     "goles": 50,
     "nacionales": 46,
     "internacionales": 4,
-    "nacionalidad": "Argentino"
+    "nacionalidad": "Argentino",
+    "posición": "Volante",
+    "partidos": 62,
+    "influencias": 0.83,
+    "debut": 1971,
+    "termino": 1976
   },
   {
     "nombre": "Gálvez Martín",
     "goles": 50,
     "nacionales": 50,
     "internacionales": 0,
-    "nacionalidad": "Chileno"
+    "nacionalidad": "Chileno",
+    "posición": "Volante",
+    "partidos": 160,
+    "influencias": 0.31,
+    "debut": 1982,
+    "termino": 1986
   }
 ]
