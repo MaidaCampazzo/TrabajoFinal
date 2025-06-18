@@ -1,199 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Máximos goleadores de U. de Chile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Trabajo final - Goleadores U. de Chile</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
-<style>
-
-            [data-theme="light"] { --color-bg: #eceff1; --color-fg: #263238; }
-
-            [data-theme="dark"] { --color-bg: #263238; --color-fg: #eceff1; }
-
-            body { 
-                font-family: 'Atkinson Hyperlegible', sans-serif;; 
-                color: var(--color-fg); 
-                background: var(--color-bg); 
-                text-align: center;
-                color: #FFFFFF;
-            }
-
-            header, main, footer { 
-                padding: 1% 10%; 
-                width: min(70%, 700px); 
-                margin: 0 auto; 
-                text-align: left; 
-                background: #0000A0;
-            }  
-
-
-            figure{
-                margin:1% -10%;
-            }
-
-            figure img{
-                width:100%;
-            }
-
-            figure figcaption{
-                margin:1% 8%;
-            }
-
-            header{
-                margin-top:2rem;
-            }          
-
-            footer{
-                margin-bottom:2rem;
-            }  
-
-            h1{
-                text-align: center;
-            }
-
-            h2{
-                text-align: center;
-            }
-            h5{
-                text-align: center;
-            }
-
-            h3{
-                margin-top:3rem;
-            }
-            table {
-                border-collapse: collapse;
-                width: 70%;
-              }
-
-              th, td {
-                border: 1px solid #ccc;
-                padding: 8px;
-                text-align: left;
-              }
-
-              th {
-                background-color: #FFFFFF;
-                color: #0000A0;
-              }
-  </style>
-
 <body>
+  <header>
+    <h1>Goleadores históricos de Universidad de Chile</h1>
+    <h2>Un subtítulo que sea más serio</h2>
+    <h5>Por Magdalena Campazzo F.</h5>
+    <p></p>
+  </header>
 
-    <header>
-       <h1>Máximos goleadores históricos de Universidad de Chile</h1>
-            <h2>Ránking y otros datos interesantes de los goleadores de la U.</h2>
-            <h5>Por Magdalena Campazzo F.</h5>
-            <p>Bajada (dejar para el final).</p>
-    </header>
+  <main>
+    <article>
+      <h3>Línea del tiempo de los máximos goleadores del club</h3>
+      <div id="lineaTiempo"></div>
+      <div id="lineasVerticales"></div>
+      <div class="decadas" id="decadas"></div>
+    </article>
 
+    <article>
+      <h3>Top 5 Goleadores Históricos</h3>
+      <div id="top5-goleadores"></div>
+      <p>Gráfico de barras que compare los goles anotados en torneo nacional, internacional, influencias, etc. de los top 5 goleadores del club.</p>
+    </article>
 
-<main>
-            <article>
-                <h3>Ranking histórico de goleadores de Universidad de Chile</h3>
-                <figure>
-                    <img src="https://github.com/MaidaCampazzo/TrabajoFinal/blob/main/boceto%20tabla%20general.png?raw=true">
-                    <figcaption>Tabla general acumulada.</figcaption>
-                </figure>
-            </article>
+  </main>
 
-            <article>
-                <h3>Goleadores en torneos nacionales e internacionales</h3>
-                <table border="1">
-                  <thead>
-                    <tr>
-                      <th>Nombre</th>
-                      <th>Torneos nacionales</th>
-                      <th>Torneos internacionales</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Carlos Campos</td>
-                      <td>195</td>
-                      <td>4</td>
-                    </tr>
-                    <tr>
-                      <td>Leonel Sánchez</td>
-                      <td>165</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>Pedro González</td>
-                      <td>115</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>Marcelo Salas</td>
-                      <td>101</td>
-                      <td>12</td>
-                    </tr>
-                    <tr>
-                      <td>Pedro Araya</td>
-                      <td>83</td>
-                      <td>8</td>
-                    </tr>
-                        <td>Eduardo Vargas</td>
-                      <td>18</td>
-                      <td>13</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <p>Carlos Campos es el máximo goleador histórico de Universidad de Chile en el medio local, con 184 goles entre 1956 y 1969, siendo figura clave del Ballet Azul. En torneos internacional, Eduardo Vargas anotó 13 goles con la U, destacando en la Copa Sudamericana 2011 (máximo anotador histórico en una edición de la Copa hasta la actualidad), donde fue goleador y pieza fundamental para el primer título internacional del club.</p>
-            </article>
+  <footer></footer>
 
-            <article>
-                <h3>Carlos Campos</h3>
-                <figure>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Carlos_Campos%2C_Estadio%2C_1961-11-23_%28965%29.jpg">
-                    <figcaption>Falta linea del tiempo</figcaption>
-                </figure>
-                <p>Carlos "El Tanque" Campos, fue uno de los máximos ídolos de Universidad de Chile y una figura emblemática del histórico Ballet Azul. Anotó 199 goles entre 1956 y 1969. Campos dejó una huella imborrable en la historia del club, siendo un referente que marcó una época dorada para la "U".
-.</p>
-            </article>
-
-            <article>
-                <h3>Eduardo Vargas</h3>
-                <figure>
-                    <img src="https://ds-images.bolavip.com/news/image?src=https://images.redgol.cl/webp/full/RDG_20250122_RDG_960764_eduardo-vargas-universidad-de-chile-2-1024x723_254462ff.webp&width=1024&height=723">
-                    <figcaption>Pequeño texto</figcaption>
-                </figure>
-                <p>Eduardo Vargas brilló con Universidad de Chile en la década de 2010, destacándose como un goleador clave en torneos internacionales. Con 13 goles en competencias continentales, fue fundamental para que la “U” ganara la Copa Sudamericana 2011, donde además fue el máximo artillero del torneo.
-.</p>
-            </article>
-
-                        <article>
-                <h3>Matías Rodriguez</h3>
-                <figure>
-                    <img src="https://puranoticia.pnt.cl/cms/site/artic/20170309/imag/foto_0000000120170309170621.jpg">
-                    <figcaption>Pequeño texto</figcaption>
-                </figure>
-                <p>Matías Rodríguez fue un defensa destacado de Universidad de Chile durante la década de 2010, aunque no fue un goleador innato como otros por su posición en el campo, su aporte fue fundamental para la estructura del equipo, participando en la conquista de varios títulos nacionales y copas internacionales. Su entrega y compromiso lo convirtieron en un referente dentro del plantel y un jugador muy valorado por la hinchada azul, además de ser el defensa más goleador en la historia del club.
-.</p>
-            </article>
-
-            <article>
-                <p>Esta es la conclusión con un lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend luctus diam, sed fermentum arcu interdum nec. Fusce eu efficitur libero. Nullam vitae sagittis nunc. Sed justo erat eleifend.</p>
-            </article>
-        </main>
-
-
-
-    <footer>
-        <p>Proyecto para el curso de Desarrollo Web - 2025</p>
-    </footer>
-
-<script>
-     async function datos() {
-                const consulta = await fetch("https://raw.githubusercontent.com/MaidaCampazzo/TrabajoFinal/refs/heads/main/Goleadores.json");
-                data = await consulta.json();
-                console.log(data);
-                }
-            datos().catch((error) => console.error(error));
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
