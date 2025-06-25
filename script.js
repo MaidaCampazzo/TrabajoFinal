@@ -18,7 +18,7 @@ fetch(url)
   .then(datos => {
     const cuerpoTabla = document.getElementById("top10-goleadores");
 
-    // Ordenar y seleccionar top 10 por partidos (nacionales + internacionales)
+
     const top10Partidos = [...datos]
       .sort((a, b) => (b.nacionales + b.internacionales) - (a.nacionales + a.internacionales))
       .slice(0, 10);
@@ -115,7 +115,6 @@ fetch(url)
 
     contenedor.style.height = datos.length * 38 + espacioSuperior + "px";
 
-    // Decadas debajo de la línea de tiempo
     const etiquetas = document.getElementById("decadas");
     etiquetas.innerHTML = "";
     for (let año = añoInicio; año <= añoFin; año += 10) {
