@@ -1,202 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
 
-[data-theme="light"] { --color-bg: #eceff1; --color-fg: #263238; }
+body {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    background-image: url("img/fondo.png");
+    background-image: linear-gradient(rgba(63, 65, 72, 0.1) 0%, rgba(0, 0, 102, 1) 12%), url("fondo.png");
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 
-[data-theme="dark"] { --color-bg: #263238; --color-fg: #eceff1; }
-
-body { 
-font-family: 'Atkinson Hyperlegible', sans-serif;; 
-color: var(--color-fg); 
-background: var(--color-bg); 
-text-align: center;
-color: #FFFFFF;
+@media (orientation:portrait){
+    body{
+        background-size: 300% auto;
+    }
 }
 
 header {
-  margin: 0;
-  background: #FFFFFF;
-
-  background-image: url("fondo.png");
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-  margin-bottom: 15px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+    margin: 0;
+    height: 600px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-main, footer { 
-padding: 1% 10%; 
-width: min(85%, 850px); 
-margin: 0 auto; 
-text-align: left; 
-background: #000066;
-}  
-
+main,
+footer {
+    padding: 1% 10%;
+    width: min(90%, 900px);
+    margin: 0 auto;
+    text-align: left;
+}
 
 h1 {
-  text-align: center;
-  margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    font-size: calc(2rem + 2vw);
+    letter-spacing: 0.1rem;
+    line-height: 1.1;
 }
 
 h2 {
-  font-size: 1.5em;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-size: calc(1rem + 1vw);
 }
 
 h3 {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 p {
-  font-weight: thin;
-  font-size: 0.8em;
+    font-weight: 400;
+    font-size: 0.8em;
 }
-
 
 table {
-  table-layout: fixed;
-  width: 100%;
-  font-size: 0.8em;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 0.8em;
 }
 
-table th:first-child, 
+table th:first-child,
 table td:first-child {
-  width: 200px;
+    width: 200px;
 }
 
 thead th {
-padding-bottom: 20px;
-  font-weight: bold;
-  color: #a3d3f9;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #a3d3f9;
 }
 
 article {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #lineaTiempo {
-  position: relative;
-  width: 100%;
-  border-top: 2px solid #444;
-  padding-top: 20px;
+    position: relative;
+    width: 100%;
+    border-top: 2px solid #444;
+    padding-top: 20px;
 }
 
 #lineas-verticales {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .gol-label {
-  position: absolute;
-  left: 0;
-  text-align: right;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: right;
+    width: 100%;
 }
 
 .player-bar {
-  position: absolute;
-  background-color: #A3D3F9;
-  color: black;
-  padding: 0 10px;
-  font-size: 0.8em;
-  border-radius: 4px;
-  white-space: nowrap;
-  height: 28px;
-  line-height: 28px;
-  display: inline-block;
-  width: auto;
-  max-width: 100%;
-  overflow: hidden;
+    position: absolute;
+    background-color: #a3d3f9;
+    color: black;
+    padding: 0 10px;
+    font-size: 0.8em;
+    border-radius: 4px;
+    white-space: nowrap;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .top-scorer {
-  background-color: #d72631;
-  font-weight: bold;
-  color: white;
+    background-color: #d72631;
+    font-weight: bold;
+    color: white;
 }
 
 .decadas {
-  display: inline-flex;
-  justify-content: space-between;
-  margin-top: 60px;
-  font-size: 0.8em;
-  color: #FFFFFF;
-  width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 0.8em;
+    color: #ffffff;
+    width: 100%;
 }
 
 .barra-svg {
-  display: block;
-  margin-top: 4px;
+    display: block;
+    margin-top: 4px;
 }
 
 .nacionales {
-  fill: #A3D3F9;
+    fill: #a3d3f9;
 }
 
 .internacionales {
-  fill: #A3D3F9;
+    fill: #a3d3f9;
 }
 
 .jugador-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  background-color: #FFFFFF;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 30px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  color: #0000A0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #0000a0;
 }
 
 .jugador-card:hover {
-  transform: scale(1.02);
-  background-color: #A3D3F9;
-
+    transform: scale(1.02);
+    background-color: #a3d3f9;
 }
 
 .jugador-card img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 4px solid #FFFFFF;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #ffffff;
 }
 
 .datos-jugador h3 {
-  margin-top: 0;
-  color: #0000A0;
+    margin-top: 0;
+    color: #0000a0;
 }
 
 .datos-jugador p {
-  margin: 5px 0;
-  font-size: 14px;
+    margin: 5px 0;
+    font-size: 14px;
 }
 
 .jugador-card.invertido {
-  flex-direction: row-reverse;
-
-  .video-final {
-  text-align: center;
-  padding: 40px 20px;
-
+    flex-direction: row-reverse;
+}
+.video-final {
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .video-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }

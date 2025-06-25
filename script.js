@@ -44,15 +44,12 @@ fetch(url)
           <rect x="0" y="0" width="${largoNacionales}" height="25" fill="#005BAC" rx="1"></rect>
           ${
             jugador.internacionales > 0
-              ? `<rect x="${largoNacionales}" y="0" width="${largoInternacionales}" height="25" fill="#A3D3F9" rx="1"></rect>`
-              : ``
-          }
+              ? `<rect x="${largoNacionales}" y="0" width="${largoInternacionales}" height="25" fill="#A3D3F9" rx="1"></rect>`: ``}
           <text x="10" y="17" font-size="12" fill="white">${jugador.nacionales}</text>
           ${
             jugador.internacionales > 0
               ? `<text x="${largoNacionales + largoInternacionales + 6}" y="17" font-size="12" fill="#a3d3f9">${jugador.internacionales}</text>`
-              : ``
-          }
+              : ``}
         </svg>
       `;
 
