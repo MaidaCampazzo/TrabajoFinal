@@ -8,28 +8,154 @@
 <body>
   <header>
     <h1>Goleadores históricos de Universidad de Chile</h1>
-    <h2>Un subtítulo que sea más serio</h2>
-    <h5>Por Magdalena Campazzo F.</h5>
-    <p></p>
+    <h2>Breve recorrido por los grandes jugadores de la U</h2>
+
+  <p>Hecho por Magdalena Campazzo F.</p>
   </header>
 
   <main>
     <article>
-      <h3>Línea del tiempo de los máximos goleadores del club</h3>
+      <h2>Línea del tiempo de los máximos goleadores del club</h2>
+      <h3>Visualización temporal de los principales años de influencia de distintos jugadores en el club y los goles convertidos.</h3>
       <div id="lineaTiempo"></div>
-      <div id="lineasVerticales"></div>
       <div class="decadas" id="decadas"></div>
     </article>
 
     <article>
-      <h3>Top 5 Goleadores Históricos</h3>
-      <div id="top5-goleadores"></div>
-      <p>Gráfico de barras que compare los goles anotados en torneo nacional, internacional, influencias, etc. de los top 5 goleadores del club.</p>
+      <h2>Comparación de goles en torneos nacionales e internacionales</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Jugador</th>
+            <th>Partidos nacionales vs internacionales</th>
+          </tr>
+        </thead>
+        <tbody id="top10-goleadores"></tbody>
+      </table>
+      <p>Los jugadores que metieron más goles internacionales suelen estar más cercanos al siglo XXI, ya que antes (hasta los '80) no era recurrente equipos chilenos en torneos internacionales. También calza con que en el siglo XXI existieron muchas buenas participaciones de la U en torneos internacionales, destacando la Copa Sudamericana de 2011 donde Eduardo Vargas fue el máximo goleador del certamen, pero aún no entra en el top 25 de la U.</p>
     </article>
 
+<article>
+  <h2>Jugadores con mejor porcentaje de influencias en su carrera en la U</h2>
+  <h4>Esto hace referencia a la suma de goles y asistencias dividido en la cantidad de partidos totales disputados y registrados.</h4>
+<table> 
+  <tr>
+    <td>
+      <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+    <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="#000066" stroke="#d72631" stroke-width="3"></circle>
+    <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0847d1" stroke-width="3" stroke-dasharray="7 93" stroke-dashoffset="0"></circle>
+    <text x="21" y="19" font-size="7" fill="white" dominant-baseline="middle" text-anchor="middle">0,93%</text>
+    <text x="21" y="25" font-size="3" fill="white" dominant-baseline="middle" text-anchor="middle">Gustavo Canales</text>
+</svg>
+    </td>
+
+        <td>
+      <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+    <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="#000066" stroke="#d72631" stroke-width="3"></circle>
+    <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0847d1" stroke-width="3" stroke-dasharray="17 83" stroke-dashoffset="0"></circle>
+    <text x="21" y="19" font-size="7" fill="white" dominant-baseline="middle" text-anchor="middle" color="white">0,83%</text>
+    <text x="21" y="25" font-size="3" fill="white" dominant-baseline="middle" text-anchor="middle">J. Carlos Sarnari</text>
+</svg>
+    </td>
+
+        <td>
+      <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+    <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="#000066" stroke="#d72631" stroke-width="3"></circle>
+    <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0847d1" stroke-width="3" stroke-dasharray="18 82" stroke-dashoffset="0"></circle>
+    <text x="21" y="19" font-size="7" fill="white" dominant-baseline="middle" text-anchor="middle">0,82%</text>
+    <text x="21" y="25" font-size="3" fill="white" dominant-baseline="middle" text-anchor="middle">Rodrigo Barrera</text>
+</svg>
+    </td>
+
+            <td>
+      <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+    <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="#000066" stroke="#d72631" stroke-width="3"></circle>
+    <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0847d1" stroke-width="3" stroke-dasharray="19 71" stroke-dashoffset="0"></circle>
+    <text x="21" y="19" font-size="7" fill="white" dominant-baseline="middle" text-anchor="middle">0,71%</text>
+    <text x="21" y="25" font-size="3" fill="white" dominant-baseline="middle" text-anchor="middle">Carlos Campos</text>
+</svg>
+    </td>
+  </tr>
+</table>
+      <p>Estadísticamente es más probable que un jugador tenga mejor porcentaje de influencias si es que disputó menor cantidad de partidos, como ocurre con Gustavo Canales en comparación con otros jugadores que estuvieron muchos años en el club metiendo muchos goles pero en mayor cantidad de partidos.</p>
+</article>
+
+<h2>Jugadores a destacar:</h2>
+
+<article class="jugador-card">
+  <img src="CarlosCampos.jpg" alt="Carlos Campos">
+  <div class="datos-jugador">
+    <h2>Carlos Campos</h2>
+    <p><strong>Posición:</strong> Delantero centro</p>
+    <p><strong>Goles:</strong> 199</p>
+    <p><strong>Partidos:</strong> 259</p>
+    <p><strong>Influencias:</strong> 0.71</p>
+    <p><strong>Nacionallidad:</strong> Chileno</p>   
+    <p><strong>Debut:</strong> 1958 – <strong>Término:</strong> 1973</p>
+    <p><strong>Dato: </strong>Cambió el día de su matrimonio para jugar un Superclásico; le marcó 3 goles a Colo-Colo.</p>
+  </div>
+</article>
+
+<article class="jugador-card invertido">
+  <img src="BraulioMusso.jpeg" alt="Braulio Musso">
+  <div class="datos-jugador">
+    <h2>Braulio Musso</h2>
+    <p><strong>Posición:</strong> Volante</p>
+    <p><strong>Goles:</strong> 83</p>
+    <p><strong>Partidos:</strong> 391</p>
+    <p><strong>Influencias:</strong> 0.21</p>
+    <p><strong>Nacionallidad:</strong> Chileno</p>  
+    <p><strong>Debut:</strong> 1952 – <strong>Término:</strong> 1965</p>
+    <p><strong>Dato: </strong>Además de vestir sólo la camiseta del Romantico Viajero y de La Roja, Musso jugó en todas las posiciones de la cancha y fue homenajeado con una polera con todos los números que hacen alusión a posiciones. Falleció recientemente el 18 de junio de 2025.</p>
+  </div>
+</article>
+
+<article class="jugador-card">
+  <img src="MatiasRodriguez.jpg" alt="Matías Rodríguez">
+  <div class="datos-jugador">
+    <h2>Matías Rodríguez</h2>
+    <p><strong>Posición:</strong> Lateral</p>
+    <p><strong>Goles:</strong> 57</p>
+    <p><strong>Partidos:</strong> 340</p>
+    <p><strong>Influencias:</strong> 0.16</p>
+    <p><strong>Nacionallidad:</strong> Argentino</p>   
+    <p><strong>Debut:</strong> 2010 – <strong>Término:</strong> 2021</p>
+    <p><strong>Dato: </strong>El jugador más reciente del ránking. Es el defensa más goleador en la historia del club, destacando en su participación en el equipo icónico del 2011, de la goleada 5-0 a Colo-Colo el 2012 y salvando a la U del decenso al final de su carrera en el club. Sigue activo en Deportes Melipilla.</p>
+  </div>
+</article>
+
+<article class="jugador-card invertido">
+  <img src="DiegoRivarola.jpeg" alt="Diego Rivarola">
+  <div class="datos-jugador">
+    <h2>Diego Rivarola</h2>
+    <p><strong>Posición:</strong> Volante</p>
+    <p><strong>Goles:</strong> 83</p>
+    <p><strong>Partidos:</strong> 391</p>
+    <p><strong>Influencias:</strong> 0.21</p>
+    <p><strong>Nacionallidad:</strong> Chileno</p>  
+    <p><strong>Debut:</strong> 1997 – <strong>Término:</strong> 2011</p>
+    <p><strong>Dato: </strong>"Gokú" le metió 14 goles a Colo-Colo en sus 7 años en el club. Metió el gol n100 de la U en superclásicos y se recuerda por su icónica celebración del 2001 donde la U rompió 10 años sin ganar en el Monumental</p>
+  </div>
+</article>
+   
   </main>
 
-  <footer></footer>
+<footer class="video-final">
+  <h2>Revive un momento histórico</h2>
+  <div class="video-container">
+    <iframe 
+      width="720" 
+      height="405" 
+      src="https://www.youtube.com/embed/vdryUzAV4gA" 
+      title="Replay Histórico Superclásico – Universidad de Chile 5 – 0 Colo Colo – Apertura 2012" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p>Proyecto realizado para la entrega final de Desarrollo web y Diseño Visual de la Información. 2025-1</p>
+</footer>
 
   <script src="script.js"></script>
 </body>
