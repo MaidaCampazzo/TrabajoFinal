@@ -10,7 +10,7 @@ body {
     color: white;
     text-align: center;
     background-image: url("img/fondo.png");
-    background-image: linear-gradient(rgba(63, 65, 72, 0.1) 0%, rgba(0, 0, 102, 1) 12%), url("fondo.png");
+    background-image: linear-gradient(rgba(63, 65, 72, 0.1) 0%, rgba(0, 0, 102, 1) 12%), url("img/fondo.png");
     background-size: 100% auto;
     background-position: top center;
     background-repeat: no-repeat;
